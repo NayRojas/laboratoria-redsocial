@@ -1,2 +1,2 @@
 # laboratoria-redsocial
-Proyecto orienta a desarrollar una comunidad online para estudiantes de Laboratoria
+Proyecto orientado a desarrollar una comunidad online para estudiantes de Laboratoria
