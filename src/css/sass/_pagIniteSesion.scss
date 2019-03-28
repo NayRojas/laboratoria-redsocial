@@ -1,0 +1,15 @@
+.cont-register-login {
+    
+  background: rgba(rgba(61, 136, 54, 0.514), $alpha: 0.5);
+  width: 70%;
+  max-width: 450px;
+  h2 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  form {
+    input {
+      font-size: 1em;  
+    }
+  }
+}

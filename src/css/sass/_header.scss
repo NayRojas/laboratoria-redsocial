@@ -1,0 +1,29 @@
+.avatar-perfil {
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  background: #b3b3b3;
+}
+
+.sub-menu {
+  ul {
+    display: none;
+    position: absolute;
+    right: 20px;
+    background: gray;
+    li {
+      display: block;
+      padding: 15px 10px !important;
+      border-bottom: 1px solid black;
+      text-align: center;
+    }
+  }
+  &:hover {
+    ul {
+      display: block;
+    }
+  }
+  &:active {
+    display: block;
+  }
+}

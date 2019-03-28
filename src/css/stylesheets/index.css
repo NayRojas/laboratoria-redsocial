@@ -1,0 +1,666 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url("https://fonts.googleapis.com/css?family=Nova+Round|Reenie+Beanie|Righteous|Saira+Semi+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Nova+Round|Reenie+Beanie|Righteous|Saira+Semi+Condensed");
+/* line 5, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_universal.scss */
+input,
+textarea,
+select {
+  display: block;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 13, ../sass/_universal.scss */
+.block {
+  display: block;
+}
+
+/* line 17, ../sass/_universal.scss */
+.m-a {
+  margin: auto;
+}
+
+/* line 20, ../sass/_universal.scss */
+.m-10 {
+  margin: 10px;
+}
+
+/* line 24, ../sass/_universal.scss */
+.mt-5 {
+  margin-top: 5px;
+}
+
+/* line 28, ../sass/_universal.scss */
+.mt-8 {
+  margin-top: 8px;
+}
+
+/* line 32, ../sass/_universal.scss */
+.mt-15 {
+  margin-top: 15px;
+}
+
+/* line 36, ../sass/_universal.scss */
+.mt-100 {
+  margin-top: 100px;
+}
+
+/* line 39, ../sass/_universal.scss */
+.mr-5 {
+  margin-right: 5px;
+}
+
+/* line 43, ../sass/_universal.scss */
+.p-5 {
+  padding: 5px;
+}
+
+/* line 47, ../sass/_universal.scss */
+.p-15 {
+  padding: 15px;
+}
+
+/* line 51, ../sass/_universal.scss */
+.p-30 {
+  padding: 30px;
+}
+
+/* line 55, ../sass/_universal.scss */
+.b-r {
+  border-radius: 20px;
+}
+
+/* line 59, ../sass/_universal.scss */
+.cont-float {
+  height: auto;
+  overflow: auto;
+}
+
+/* line 63, ../sass/_universal.scss */
+.w-30p {
+  float: left;
+  width: 30%;
+}
+
+/* line 67, ../sass/_universal.scss */
+.w-60p {
+  float: left;
+  width: 60%;
+}
+
+/* line 71, ../sass/_universal.scss */
+.w-70p {
+  float: left;
+  width: 70%;
+}
+
+/* line 76, ../sass/_universal.scss */
+.w-40p {
+  float: left;
+  width: 40%;
+}
+
+/* line 80, ../sass/_universal.scss */
+.w-100p {
+  width: 100%;
+}
+
+/* line 84, ../sass/_universal.scss */
+.left {
+  float: left;
+}
+
+/* line 87, ../sass/_universal.scss */
+.right {
+  float: right;
+}
+
+/* line 91, ../sass/_universal.scss */
+.cursor {
+  cursor: pointer;
+}
+
+/* line 95, ../sass/_universal.scss */
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 98, ../sass/_universal.scss */
+ul {
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* line 103, ../sass/_universal.scss */
+.ta-r {
+  text-align: right;
+}
+
+/* line 106, ../sass/_universal.scss */
+.ta-l {
+  text-align: left;
+}
+
+/* line 1, ../sass/_botones.scss */
+.btn {
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  font-size: 1em;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+/* line 11, ../sass/_botones.scss */
+.btn1 {
+  background: #ec49b187;
+}
+/* line 13, ../sass/_botones.scss */
+.btn1:hover {
+  background: #ec49b187, 10%;
+}
+/* line 16, ../sass/_botones.scss */
+.btn1:active {
+  background: #ec49b187, 30%;
+}
+
+/* line 21, ../sass/_botones.scss */
+.btn2 {
+  background: #cecece;
+}
+/* line 23, ../sass/_botones.scss */
+.btn2:hover {
+  background: #cecece, 10%;
+}
+/* line 26, ../sass/_botones.scss */
+.btn2:active {
+  background: #cecece, 30%;
+}
+
+/* line 30, ../sass/_botones.scss */
+.btn3 {
+  background: #ffe662;
+}
+/* line 32, ../sass/_botones.scss */
+.btn3:hover {
+  background: #fbd300;
+}
+/* line 35, ../sass/_botones.scss */
+.btn3:active {
+  background: #957d00;
+}
+
+/* line 40, ../sass/_botones.scss */
+.btn-inite-sesion {
+  padding: 8px 15px;
+  background: #ffe662;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  font-size: 1em;
+  transition: background 0.3s;
+}
+/* line 48, ../sass/_botones.scss */
+.btn-inite-sesion:hover {
+  background: #fbd300;
+}
+/* line 51, ../sass/_botones.scss */
+.btn-inite-sesion:active {
+  background: #957d00;
+}
+
+/* line 56, ../sass/_botones.scss */
+.btn-register {
+  padding: 6px 10px;
+  background: #71c04c;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+/* line 61, ../sass/_botones.scss */
+.btn-register:hover {
+  background: #5aa138;
+}
+
+/* line 66, ../sass/_botones.scss */
+.btn-continue-with-fb {
+  padding: 6px 10px;
+  background: #5783f1;
+  border-radius: 5px;
+  font-family: Ubuntu;
+  font-size: 12px;
+  color: #f5f3f3;
+  font-family: "Poppins", sans-serif;
+}
+/* line 74, ../sass/_botones.scss */
+.btn-continue-with-fb:hover {
+  background: #2860ed;
+}
+
+/* line 78, ../sass/_botones.scss */
+.btn-continue-with-google {
+  margin-left: 20px;
+  padding: 6px 10px;
+  background: #ffffff;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  color: #000000;
+}
+/* line 86, ../sass/_botones.scss */
+.btn-continue-with-google:hover {
+  background: #e6e6e6;
+}
+
+@media screen and (max-width: 600px) {
+  /* line 92, ../sass/_botones.scss */
+  .btn-inite-sesion {
+    padding: 6px 11px;
+    font-size: 0.8em;
+  }
+
+  /* line 97, ../sass/_botones.scss */
+  .btn-continue-with-google {
+    display: block;
+    margin: 10px auto;
+  }
+
+  /* line 102, ../sass/_botones.scss */
+  .btn-continue-with-fb {
+    margin-left: 0px;
+    display: block;
+    margin: 10px auto;
+  }
+}
+/* line 1, ../sass/_header.scss */
+.avatar-perfil {
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  background: #b3b3b3;
+}
+
+/* line 9, ../sass/_header.scss */
+.sub-menu ul {
+  display: none;
+  position: absolute;
+  right: 20px;
+  background: gray;
+}
+/* line 14, ../sass/_header.scss */
+.sub-menu ul li {
+  display: block;
+  padding: 15px 10px !important;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+/* line 22, ../sass/_header.scss */
+.sub-menu:hover ul {
+  display: block;
+}
+/* line 26, ../sass/_header.scss */
+.sub-menu:active {
+  display: block;
+}
+
+/* line 3, ../sass/_pagInite.scss */
+.icon-btn {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* line 7, ../sass/_pagInite.scss */
+body {
+  background: url(../../image/fondo.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: auto cover;
+}
+
+/* line 14, ../sass/_pagInite.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 17, ../sass/_pagInite.scss */
+.table {
+  display: table;
+}
+/* line 19, ../sass/_pagInite.scss */
+.table .cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 25, ../sass/_pagInite.scss */
+header {
+  padding: 0px 10px;
+  background: rgba(83, 151, 241, 0.644);
+}
+/* line 28, ../sass/_pagInite.scss */
+header .header-nav {
+  width: 100%;
+  height: 80px;
+}
+/* line 32, ../sass/_pagInite.scss */
+header .header-nav .brand-logo {
+  font-size: 3em;
+  font-family: Reenie Beanie;
+  color: black;
+  font-weight: bold;
+}
+/* line 40, ../sass/_pagInite.scss */
+header .header-nav .right ul,
+header .header-nav .right2 ul {
+  float: right;
+}
+/* line 42, ../sass/_pagInite.scss */
+header .header-nav .right ul li,
+header .header-nav .right2 ul li {
+  padding: 0px 5px;
+}
+/* line 50, ../sass/_pagInite.scss */
+header .ul-movil {
+  display: none;
+}
+
+/* line 55, ../sass/_pagInite.scss */
+.logo-in-main {
+  font-family: Reenie Beanie;
+  margin-top: 10%;
+  font-size: 8em;
+  text-align: center;
+  color: #000000;
+}
+
+/* line 62, ../sass/_pagInite.scss */
+.slogan {
+  font-family: Righteous;
+  font-size: 18px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+/* line 70, ../sass/_pagInite.scss */
+p {
+  height: 19px;
+  text-align: center;
+  font-family: Nova Round;
+  font-size: 15px;
+  color: #000000;
+  margin: 15px auto;
+}
+
+/* line 80, ../sass/_pagInite.scss */
+.final-phrase {
+  margin: 30px auto;
+  font-family: Reenie Beanie;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #000000;
+}
+
+/* line 89, ../sass/_pagInite.scss */
+.ways-of-inite {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  /* line 95, ../sass/_pagInite.scss */
+  header {
+    padding: 0px 5px;
+  }
+  /* line 97, ../sass/_pagInite.scss */
+  header .header-nav {
+    height: 50px;
+  }
+  /* line 99, ../sass/_pagInite.scss */
+  header .header-nav .brand-logo {
+    font-size: 1.5em;
+  }
+  /* line 102, ../sass/_pagInite.scss */
+  header .header-nav .right {
+    display: none;
+  }
+  /* line 106, ../sass/_pagInite.scss */
+  header nav {
+    display: none;
+  }
+  /* line 110, ../sass/_pagInite.scss */
+  header ul {
+    display: block;
+  }
+
+  /* line 114, ../sass/_pagInite.scss */
+  .logo-in-main {
+    font-size: 4em;
+  }
+}
+/* line 1, ../sass/_register&initS.scss */
+.cont-register-login {
+  background: rgba(83, 151, 241, 0.644);
+  width: 70%;
+  max-width: 450px;
+}
+/* line 5, ../sass/_register&initS.scss */
+.cont-register-login h2 {
+  font-size: 3em;
+  text-align: center;
+  font-family: Reenie Beanie;
+  font-weight: bold;
+}
+/* line 12, ../sass/_register&initS.scss */
+.cont-register-login form label,
+.cont-register-login form input {
+  display: block;
+}
+/* line 16, ../sass/_register&initS.scss */
+.cont-register-login form input {
+  width: 100%;
+  font-size: 1em;
+}
+
+/* line 1, ../sass/_crearPost.scss */
+.cont-r-post {
+  background: rgba(241, 214, 83, 0.72);
+  width: 70%;
+  max-width: 450px;
+}
+/* line 5, ../sass/_crearPost.scss */
+.cont-r-post .texta {
+  height: 180px;
+}
+/* line 8, ../sass/_crearPost.scss */
+.cont-r-post img {
+  width: 100%;
+  height: 180px;
+}
+
+/* line 1, ../sass/_post_muro.scss */
+.grid-container {
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+/* line 5, ../sass/_post_muro.scss */
+.grid-container .grid-item {
+  margin: 10px;
+  display: inline-block;
+  max-width: 400px;
+  width: 90%;
+  background-color: rgba(64, 228, 86, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 10px;
+  text-align: center;
+  font-family: "Poppins", sans-serif !important;
+}
+/* line 16, ../sass/_post_muro.scss */
+.grid-container .grid-item p {
+  height: auto;
+}
+/* line 19, ../sass/_post_muro.scss */
+.grid-container .grid-item .postTypePrivate {
+  font-size: 1.3em;
+}
+/* line 22, ../sass/_post_muro.scss */
+.grid-container .grid-item .userName {
+  font-size: 1.5em;
+}
+/* line 25, ../sass/_post_muro.scss */
+.grid-container .grid-item .postType {
+  font-size: 1.5em;
+}
+/* line 28, ../sass/_post_muro.scss */
+.grid-container .grid-item .postTitle {
+  text-transform: uppercase;
+  font-size: 2em;
+}
+/* line 32, ../sass/_post_muro.scss */
+.grid-container .grid-item .multmediaImage {
+  width: 100%;
+  height: 250px;
+}
+/* line 36, ../sass/_post_muro.scss */
+.grid-container .grid-item .postInfo {
+  font-size: 1.3em;
+}
+/* line 41, ../sass/_post_muro.scss */
+.grid-container .cont-icon {
+  margin-bottom: 15px;
+}
+/* line 42, ../sass/_post_muro.scss */
+.grid-container .cont-icon span {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 1.5em;
+}
+/* line 45, ../sass/_post_muro.scss */
+.grid-container .cont-icon span:hover {
+  color: #00fb22;
+}
+/* line 48, ../sass/_post_muro.scss */
+.grid-container .cont-icon span:active {
+  color: #009514;
+}
+/* line 54, ../sass/_post_muro.scss */
+.grid-container .con-dele-edit {
+  margin-bottom: 10px;
+}
+/* line 56, ../sass/_post_muro.scss */
+.grid-container .con-dele-edit span {
+  font-size: 1.8em;
+}
+/* line 58, ../sass/_post_muro.scss */
+.grid-container .con-dele-edit span:hover {
+  color: #00fb22;
+}
+/* line 61, ../sass/_post_muro.scss */
+.grid-container .con-dele-edit span:active {
+  color: #009514;
+}
+
+/* line 68, ../sass/_post_muro.scss */
+.cont-comentar {
+  margin: 10px auto;
+  display: block;
+  max-width: 400px;
+  width: 90%;
+  background-color: rgba(64, 228, 86, 0.3);
+  padding: 15px;
+}
+
+/* line 78, ../sass/_post_muro.scss */
+.grid-item-comment {
+  margin-top: 5px;
+  background: #eeeeee;
+  font-family: "Poppins", sans-serif !important;
+}
+/* line 82, ../sass/_post_muro.scss */
+.grid-item-comment .title {
+  font-size: 1.3em;
+}
+/* line 85, ../sass/_post_muro.scss */
+.grid-item-comment p {
+  text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+  /* line 92, ../sass/_post_muro.scss */
+  .grid-container .grid-item {
+    margin-top: 20px;
+  }
+}

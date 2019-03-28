@@ -1,0 +1,108 @@
+input,
+textarea,
+select {
+  display: block;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.block {
+  display: block;
+}
+
+.m-a {
+  margin: auto;
+}
+.m-10 {
+  margin: 10px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.b-r {
+  border-radius: 20px;
+}
+
+.cont-float {
+  height: auto;
+  overflow: auto;
+}
+.w-30p {
+  float: left;
+  width: 30%;
+}
+.w-60p {
+  float: left;
+  width: 60%;
+}
+.w-70p {
+  float: left;
+  width: 70%;
+}
+
+.w-40p {
+  float: left;
+  width: 40%;
+}
+.w-100p{
+  width: 100%;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+ul{
+  
+  font-family: "Poppins", sans-serif !important;
+}
+
+.ta-r{
+  text-align: right;
+}
+.ta-l{
+  text-align: left;
+}

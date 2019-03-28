@@ -1,0 +1,18 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import url("https://fonts.googleapis.com/css?family=Nova+Round|Reenie+Beanie|Righteous|Saira+Semi+Condensed");
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Nova+Round|Reenie+Beanie|Righteous|Saira+Semi+Condensed');
+
+@import 'color';
+@import 'universal';
+@import 'botones';
+@import 'header';
+@import 'pagInite';
+@import 'register&initS';
+@import 'crearPost';
+@import 'post_muro'

@@ -1,0 +1,21 @@
+.cont-register-login {
+  background: $color-primary;
+  width: 70%;
+  max-width: 450px;
+  h2 {
+    font-size: 3em;
+    text-align: center;
+    font-family: Reenie Beanie;
+    font-weight: bold;
+  }
+  form {
+    label,
+    input {
+      display: block;
+    }
+    input {
+      width: 100%;
+      font-size: 1em;  
+    }
+  }
+}
